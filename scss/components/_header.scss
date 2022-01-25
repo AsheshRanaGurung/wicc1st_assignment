@@ -6,7 +6,7 @@
   .btn-solid {
     background-color: transparent;
     padding: 0.3rem 1rem;
-    border-width: 1px;
+    border-width: 0.06rem;
     border-color: $header-button;
   }
   .btn:hover {
@@ -23,6 +23,6 @@
   }
   a {
     font-weight: 400;
-    @include rfs(13.33px);
+    @include rfs(0.83rem);
   }
 }

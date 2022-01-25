@@ -7032,7 +7032,7 @@ a {
   width: 100%; }
 
 p {
-  font-size: 0.83313rem;
+  font-size: 0.8rem;
   font-weight: 400; }
 
 .header {
@@ -7043,7 +7043,7 @@ p {
   .header .btn-solid {
     background-color: transparent;
     padding: 0.3rem 1rem;
-    border-width: 1px;
+    border-width: 0.06rem;
     border-color: #c4c4c4; }
   .header .btn:hover {
     transition: all 1s ease;
@@ -7055,7 +7055,7 @@ p {
     margin-left: 1.5rem; }
   .header a {
     font-weight: 400;
-    font-size: 0.83313rem; }
+    font-size: 0.83rem; }
 
 .list {
   list-style: none;
@@ -7083,7 +7083,7 @@ p {
     align-items: center; }
     .navbar .navbar-list .navbar-item {
       color: #fff;
-      font-size: 0.83313rem; }
+      font-size: 0.83rem; }
 
 .hero {
   margin-top: 2rem; }
@@ -7120,16 +7120,16 @@ p {
   background-image: url(assets/images/hero-background.png); }
 
 .cards {
-  margin-bottom: 20px; }
+  margin-bottom: 1.25rem; }
   .cards .card {
     border: solid #e5e5e5;
-    border-width: 1px;
-    margin-bottom: 20px;
+    border-width: 0.062rem;
+    margin-bottom: 1.25rem;
     display: flex;
     justify-content: space-around; }
   .cards .card:hover {
     transition: all 0.7s ease;
-    box-shadow: 0 0 15px -8px black; }
+    box-shadow: 0 0 0.93rem -0.5rem #000; }
   .cards .card-body {
     margin-top: 4rem; }
   .cards .logo {
@@ -7138,7 +7138,7 @@ p {
     margin-top: 1.2rem;
     font-size: 2rem; }
   .cards .info {
-    padding: 2rem 0rem; }
+    padding: 2rem 0 2rem 1rem; }
 
 .cards-name {
   text-align: center;
@@ -7178,7 +7178,7 @@ p {
   .support .support-info {
     color: #fff;
     padding-top: 1.37rem;
-    font-size: 13.33px;
+    font-size: 0.83rem;
     text-align: center;
     margin-bottom: 3rem; }
   .support .card-logo {
@@ -7232,7 +7232,7 @@ p {
         margin-bottom: 1rem; }
   .contact .btn-secondary {
     position: right;
-    background-color: #f09b11;
+    background-color: #fec120;
     color: #fff;
     border-radius: 1rem;
     padding: 0.5rem 1rem;

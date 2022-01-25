@@ -1,16 +1,16 @@
 .cards {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   .card {
-    border: solid #e5e5e5;
-    border-width: 1px;
-    margin-bottom: 20px;
+    border: solid $caed-border;
+    border-width: 0.062rem;
+    margin-bottom: 1.25rem;
     display: flex;
-    // flex-direction: column;
+
     justify-content: space-around;
   }
   .card:hover {
     transition: all 0.7s ease;
-    box-shadow: 0 0 15px -8px black;
+    box-shadow: 0 0 0.93rem -0.5rem $black;
   }
   .card-body {
     margin-top: 4rem;
@@ -22,7 +22,7 @@
     font-size: 2rem;
   }
   .info {
-    padding: 2rem 0rem;
+    padding: 2rem 0 2rem 1rem;
   }
 }
 
@@ -30,6 +30,3 @@
   text-align: center;
   padding: 2rem;
 }
-// .right {
-//   margin-left: 20%;
-// }
