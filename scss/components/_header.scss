@@ -1,0 +1,31 @@
+.header{
+  display:flex;
+  position:relative;
+  justify-content:space-between;
+  padding: 1rem 0;
+  .btn-solid{
+    background-color: transparent;
+    padding:5px 16px;
+      border-width:1px;
+      border-color: 
+      #C4C4C4;
+  }
+  .btn:hover{
+    transition:all 1s ease;
+    box-shadow:0 0 15px -8px $black;
+  }
+  .list{
+    display:flex;
+    align-items:center;
+  }
+
+  li{
+    margin-left: 1.5rem;
+  }
+  a{
+  font-weight:400;
+    @include rfs(13.33px)
+  }
+ 
+}
+

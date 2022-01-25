@@ -1,0 +1,31 @@
+.personalized {
+  margin: 48px 0 64px 0;
+  .right {
+    border: none;
+  }
+  .left {
+    margin-right: 2rem;
+  }
+  .card-title {
+    padding-top: 38px;
+  }
+  .card-text {
+    padding-bottom: 20px;
+  }
+  .btn-primary {
+    padding: 4px 32px;
+    margin-right: 32px;
+    background-color: #3021d7;
+    border-style: none;
+  }
+  .btn-secondary {
+    padding: 4px 32px;
+    margin-right: 32px;
+    background-color: $white;
+  }
+  .btn-secondary:hover {
+    background-color: $black;
+    color: white;
+    transition: all 1s ease;
+  }
+}

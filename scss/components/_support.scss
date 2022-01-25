@@ -1,0 +1,43 @@
+.support{
+  background-image: url(assets/images/support-background.png);;
+  padding-bottom :4rem;
+  .support-name{
+    padding-top:80px;
+    color:$white;
+    text-align: center;
+  }
+  .support-info{
+    color:$white;
+    padding-top:22px;
+    font-size: 13.33px;
+    text-align:center;
+    margin-bottom:48px;
+  }
+  
+  .card-logo{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3.5rem;
+    
+  }
+  .card-title{
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .card-text{
+    padding: 10px 34px 29px 35px;
+    text-align: center;
+  }
+  .card-body{
+    color:$white;
+    padding-bottom:20px;
+    
+  }
+  .card-body:hover{
+    background-color: $white;
+    color:$black;
+    border-radius:5px;
+    transition:all 0.7s ease;
+
+}
+}

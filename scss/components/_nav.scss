@@ -1,0 +1,30 @@
+.navbar{
+  background-color:$dark;
+  justify-content: center;
+
+height: 3rem;
+left: 0px;
+ul{
+  display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    li a{
+      padding:8px 12px; 
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+      display:block;
+    }
+}
+
+.navbar-list{
+  display:flex;
+  align-items:center;
+ 
+  .navbar-item{
+   color:$white;
+    @include rfs(13.33px)
+  }
+}
+}

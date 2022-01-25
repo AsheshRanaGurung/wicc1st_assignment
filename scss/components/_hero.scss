@@ -1,0 +1,46 @@
+.hero{
+  margin-top: 2rem;
+  h5{
+    font-size:1rem;
+    font-weight:400;
+  }
+  h2{
+    font-size:52px;
+    font-weight:700;
+    padding-bottom: 44px;
+   
+  }
+  .wrapper {
+    width: 100%;
+    color: $white;
+    text-align: left;
+    margin: 5rem;
+    padding: 3rem 0;
+    margin: 9rem 0 0 4rem;
+    flex-direction: column;
+    justify-content: center;
+    .btn-secondary{
+      background-color: transparent;
+      color:$white;
+      padding:12px 38px;
+      font-weight:400;
+    }
+  }
+  .image-here{
+    padding:2rem 0rem 2rem 0rem;
+  }
+  
+  col{
+    color:$white;
+  
+  }
+  img-fluid{
+    padding-left: 1rem;
+    margin:1rem 0;
+    
+  }
+}
+.hero-img{
+  background-image: url(assets/images/hero-background.png);
+
+}

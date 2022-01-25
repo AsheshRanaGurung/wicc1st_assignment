@@ -1,0 +1,32 @@
+.contact{
+  padding-bottom: 3rem;
+  .row{
+    padding-top:1rem;
+    .form-group{
+      padding-bottom:2rem;
+      .h6{
+        color:#737373;
+      }
+      .form-control{
+        height:3.5rem;
+      }
+      .textarea{
+        height:18rem;
+        margin-bottom:1rem;
+      }
+      
+    }
+  }
+  .btn-secondary{
+    position:right;
+    background-color: #F09B11;
+    color: $white;
+    border-radius: 16px;
+    padding: 8px 16px;
+    border:none;
+    right:1rem;
+
+}
+
+  }
+  
