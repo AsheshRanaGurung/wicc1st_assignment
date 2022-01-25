@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "sass": "node-sass style.scss style.css --watch"
+    "sass": "node-sass style.scss style.css"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",

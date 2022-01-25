@@ -3,7 +3,7 @@
   --bs-blue: #2f6fcf;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
+  --bs-pink: #ff5a79;
   --bs-red: #f44336;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -212,7 +212,7 @@ pre {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #ff5a79;
   word-wrap: break-word; }
   a > code {
     color: inherit; }
@@ -7042,12 +7042,12 @@ p {
   padding: 1rem 0; }
   .header .btn-solid {
     background-color: transparent;
-    padding: 5px 16px;
+    padding: 0.3rem 1rem;
     border-width: 1px;
-    border-color: #C4C4C4; }
+    border-color: #c4c4c4; }
   .header .btn:hover {
     transition: all 1s ease;
-    box-shadow: 0 0 15px -8px #000; }
+    box-shadow: 0 0 1rem -0.5rem #000; }
   .header .list {
     display: flex;
     align-items: center; }
@@ -7066,14 +7066,14 @@ p {
   background-color: black;
   justify-content: center;
   height: 3rem;
-  left: 0px; }
+  left: 0rem; }
   .navbar ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between; }
     .navbar ul li a {
-      padding: 8px 12px;
+      padding: 0.5rem 0.75rem;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -7091,9 +7091,9 @@ p {
     font-size: 1rem;
     font-weight: 400; }
   .hero h2, .hero .h2 {
-    font-size: 52px;
+    font-size: 3.25rem;
     font-weight: 700;
-    padding-bottom: 44px; }
+    padding-bottom: 2.75rem; }
   .hero .wrapper {
     width: 100%;
     color: #fff;
@@ -7106,7 +7106,7 @@ p {
     .hero .wrapper .btn-secondary {
       background-color: transparent;
       color: #fff;
-      padding: 12px 38px;
+      padding: 0.75rem 2.3rem;
       font-weight: 400; }
   .hero .image-here {
     padding: 2rem 0rem 2rem 0rem; }
@@ -7144,46 +7144,43 @@ p {
   text-align: center;
   padding: 2rem; }
 
-.right {
-  margin-left: 20%; }
-
 .personalized {
-  margin: 48px 0 64px 0; }
+  margin: 3rem 0 4rem 0; }
   .personalized .right {
     border: none; }
   .personalized .left {
     margin-right: 2rem; }
   .personalized .card-title {
-    padding-top: 38px; }
+    padding-top: 2.3rem; }
   .personalized .card-text {
-    padding-bottom: 20px; }
+    padding-bottom: 1.25rem; }
   .personalized .btn-primary {
-    padding: 4px 32px;
-    margin-right: 32px;
-    background-color: #3021d7;
+    padding: 0.25rem 2rem;
+    margin-right: 2rem;
+    background-color: #0000ff;
     border-style: none; }
   .personalized .btn-secondary {
-    padding: 4px 32px;
-    margin-right: 32px;
+    padding: 0.25rem 2rem;
+    margin-right: 2rem;
     background-color: #fff; }
   .personalized .btn-secondary:hover {
     background-color: #000;
-    color: white;
+    color: #fff;
     transition: all 1s ease; }
 
 .support {
   background-image: url(assets/images/support-background.png);
   padding-bottom: 4rem; }
   .support .support-name {
-    padding-top: 80px;
+    padding-top: 5rem;
     color: #fff;
     text-align: center; }
   .support .support-info {
     color: #fff;
-    padding-top: 22px;
+    padding-top: 1.37rem;
     font-size: 13.33px;
     text-align: center;
-    margin-bottom: 48px; }
+    margin-bottom: 3rem; }
   .support .card-logo {
     font-size: 3rem;
     text-align: center;
@@ -7192,30 +7189,30 @@ p {
     padding-top: 2rem;
     text-align: center; }
   .support .card-text {
-    padding: 10px 34px 29px 35px;
+    padding: 0.62rem 2.1rem 1.8rem 2.1rem;
     text-align: center; }
   .support .card-body {
     color: #fff;
-    padding-bottom: 20px; }
+    padding-bottom: 1.25rem; }
   .support .card-body:hover {
     background-color: #fff;
     color: #000;
-    border-radius: 5px;
+    border-radius: 0.31rem;
     transition: all 0.7s ease; }
 
 .experience .experience-name {
-  color: blue; }
+  color: #0000ff; }
 
 .experience .controw {
   padding: 6.6rem 0 2rem 0; }
 
 .experience .logo {
-  color: blue;
+  color: #0000ff;
   padding: 0 1rem;
-  font-size: 24px; }
+  font-size: 1.5rem; }
 
 .experience .font {
-  color: #FF5A79; }
+  color: #ff5a79; }
 
 .experience p {
   color: #858585; }
@@ -7235,10 +7232,10 @@ p {
         margin-bottom: 1rem; }
   .contact .btn-secondary {
     position: right;
-    background-color: #F09B11;
+    background-color: #f09b11;
     color: #fff;
-    border-radius: 16px;
-    padding: 8px 16px;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
     border: none;
     right: 1rem; }
 
@@ -7248,4 +7245,4 @@ p {
   .footer p {
     text-align: center;
     color: #fff;
-    font-size: 13.33px; }
+    font-size: 0.8rem; }

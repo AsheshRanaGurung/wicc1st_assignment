@@ -1,32 +1,28 @@
-.contact{
+.contact {
   padding-bottom: 3rem;
-  .row{
-    padding-top:1rem;
-    .form-group{
-      padding-bottom:2rem;
-      .h6{
-        color:#737373;
+  .row {
+    padding-top: 1rem;
+    .form-group {
+      padding-bottom: 2rem;
+      .h6 {
+        color: $gray;
       }
-      .form-control{
-        height:3.5rem;
+      .form-control {
+        height: 3.5rem;
       }
-      .textarea{
-        height:18rem;
-        margin-bottom:1rem;
+      .textarea {
+        height: 18rem;
+        margin-bottom: 1rem;
       }
-      
     }
   }
-  .btn-secondary{
-    position:right;
-    background-color: #F09B11;
+  .btn-secondary {
+    position: right;
+    background-color: #f09b11;
     color: $white;
-    border-radius: 16px;
-    padding: 8px 16px;
-    border:none;
-    right:1rem;
-
-}
-
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    right: 1rem;
   }
-  
+}

@@ -1,31 +1,28 @@
-.header{
-  display:flex;
-  position:relative;
-  justify-content:space-between;
+.header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
   padding: 1rem 0;
-  .btn-solid{
+  .btn-solid {
     background-color: transparent;
-    padding:5px 16px;
-      border-width:1px;
-      border-color: 
-      #C4C4C4;
+    padding: 0.3rem 1rem;
+    border-width: 1px;
+    border-color: $header-button;
   }
-  .btn:hover{
-    transition:all 1s ease;
-    box-shadow:0 0 15px -8px $black;
+  .btn:hover {
+    transition: all 1s ease;
+    box-shadow: 0 0 1rem -0.5rem $black;
   }
-  .list{
-    display:flex;
-    align-items:center;
+  .list {
+    display: flex;
+    align-items: center;
   }
 
-  li{
+  li {
     margin-left: 1.5rem;
   }
-  a{
-  font-weight:400;
-    @include rfs(13.33px)
+  a {
+    font-weight: 400;
+    @include rfs(13.33px);
   }
- 
 }
-

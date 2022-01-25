@@ -1,5 +1,5 @@
 .personalized {
-  margin: 48px 0 64px 0;
+  margin: 3rem 0 4rem 0;
   .right {
     border: none;
   }
@@ -7,25 +7,25 @@
     margin-right: 2rem;
   }
   .card-title {
-    padding-top: 38px;
+    padding-top: 2.3rem;
   }
   .card-text {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
   }
   .btn-primary {
-    padding: 4px 32px;
-    margin-right: 32px;
-    background-color: #3021d7;
+    padding: 0.25rem 2rem;
+    margin-right: 2rem;
+    background-color: $logoblue; // #3021d7;
     border-style: none;
   }
   .btn-secondary {
-    padding: 4px 32px;
-    margin-right: 32px;
+    padding: 0.25rem 2rem;
+    margin-right: 2rem;
     background-color: $white;
   }
   .btn-secondary:hover {
     background-color: $black;
-    color: white;
+    color: $white;
     transition: all 1s ease;
   }
 }

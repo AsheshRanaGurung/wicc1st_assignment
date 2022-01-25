@@ -1,19 +1,19 @@
-.experience{
-  .experience-name{
-    color:blue;
+.experience {
+  .experience-name {
+    color: $logoblue;
   }
-  .controw{
+  .controw {
     padding: 6.6rem 0 2rem 0;
-  }.logo{
-    color:blue;
+  }
+  .logo {
+    color: $logoblue;
     padding: 0 1rem;
-    font-size: 24px;
-  } 
-.font{
-  color: #FF5A79;
-}
-  p{
-    color:#858585;
+    font-size: 1.5rem;
+  }
+  .font {
+    color: $pink;
+  }
+  p {
+    color: $light-gray;
   }
 }
-
